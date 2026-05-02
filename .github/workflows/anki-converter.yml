@@ -7,6 +7,8 @@ on:
         description: 'Input file path (e.g., words.txt)'
         required: true
         default: 'words.txt'
+        type: string
+      
       output_format:
         description: 'Output format'
         required: false
@@ -15,28 +17,56 @@ on:
         options:
           - csv
           - apkg
+      
       quiz_mode:
         description: 'Enable quiz mode (Baicizhan style)'
         required: false
         default: 'false'
         type: boolean
+      
       num_distractors:
         description: 'Number of distractors for quiz mode'
         required: false
         default: '3'
+        type: string
+      
       use_ai:
         description: 'Use AI for recognition'
         required: false
         default: 'true'
         type: boolean
+
+      # API Configuration - User Input Fields
       api_key:
-        description: 'API Key (leave empty to use config)'
+        description: 'API Key (input your API key here, leave empty to use config)'
         required: false
         default: ''
+        type: string
+      
       base_url:
-        description: 'API Base URL'
+        description: 'API Base URL (input custom URL, e.g., https://api.openai.com/v1)'
         required: false
         default: ''
+        type: string
+      
+      model:
+        description: 'AI Model (input model name, e.g., gpt-3.5-turbo, gpt-4)'
+        required: false
+        default: ''
+        type: string
+      
+      temperature:
+        description: 'Temperature (input 0.0-1.0, lower = more deterministic)'
+        required: false
+        default: ''
+        type: string
+      
+      max_tokens:
+        description: 'Max Tokens (input maximum response tokens)'
+        required: false
+        default: ''
+        type: string
+
   push:
     branches:
       - main
@@ -74,10 +104,13 @@ jobs:
           fi
           echo "Input file exists: ${{ github.event.inputs.input_file || 'words.txt' }}"
 
-      - name: Run conversion
+      - name: Run conversion with user inputs
         env:
-          API_KEY: ${{ github.event.inputs.api_key || '' }}
-          BASE_URL: ${{ github.event.inputs.base_url || '' }}
+          API_KEY: ${{ github.event.inputs.api_key }}
+          BASE_URL: ${{ github.event.inputs.base_url }}
+          MODEL: ${{ github.event.inputs.model }}
+          TEMPERATURE: ${{ github.event.inputs.temperature }}
+          MAX_TOKENS: ${{ github.event.inputs.max_tokens }}
         run: |
           ARGS="--format ${{ github.event.inputs.output_format || 'csv' }}"
           
@@ -90,14 +123,27 @@ jobs:
             ARGS="$ARGS --no-ai"
           fi
           
-          if [ -n "$API_KEY" ]; then
-            ARGS="$ARGS --api-key $API_KEY"
+          if [ -n "$API_KEY" ] && [ "$API_KEY" != "" ]; then
+            ARGS="$ARGS --api-key \"$API_KEY\""
           fi
           
-          if [ -n "$BASE_URL" ]; then
-            ARGS="$ARGS --base-url $BASE_URL"
+          if [ -n "$BASE_URL" ] && [ "$BASE_URL" != "" ]; then
+            ARGS="$ARGS --base-url \"$BASE_URL\""
           fi
           
+          if [ -n "$MODEL" ] && [ "$MODEL" != "" ]; then
+            ARGS="$ARGS --model \"$MODEL\""
+          fi
+          
+          if [ -n "$TEMPERATURE" ] && [ "$TEMPERATURE" != "" ]; then
+            ARGS="$ARGS --temperature $TEMPERATURE"
+          fi
+          
+          if [ -n "$MAX_TOKENS" ] && [ "$MAX_TOKENS" != "" ]; then
+            ARGS="$ARGS --max-tokens $MAX_TOKENS"
+          fi
+          
+          echo "Running command: python main.py \"${{ github.event.inputs.input_file || 'words.txt' }}\" $ARGS"
           python main.py "${{ github.event.inputs.input_file || 'words.txt' }}" $ARGS
 
       - name: Upload output
