@@ -1,0 +1,624 @@
+1. importance 重要；important 重要的
+2. patient 病人；耐心的；patience 耐心
+3. personal 个人的，私人的
+4. risk 危险
+5. million 百万
+6. spot 地点；发现
+7. about 关于；大约
+8. around 在...周围；大约
+9. most 大多数
+10. security 安全
+11. secure 安全的
+12. frequent 频繁的，经常的
+13. account 账户，账号；描述
+14. online 在线的
+15. avoid 避免
+16. instead 相反，而不是
+17. look for 寻找；look at 看；look after 照看，照顾
+18. with 和...一起；有
+19. by 被；通过
+20. protect 保护
+21. yell 大喊大叫
+22. glance 瞥
+23. desert 沙漠
+24. dessert 甜点
+25. land 土地
+26. upset 使失望，使沮丧
+27. demand 要求
+28. spoil 宠爱，溺爱
+29. benefit 益处，好处；使受益
+30. impress 使印象深刻
+31. convenient 方便的
+32. accessible 可达到的
+33. waste 浪费
+34. plant 植物；工厂；种植
+35. treasure 宝藏；珍视
+36. put away 收起来放好
+37. pass away 去世
+38. trunk 树干
+39. grow 生长；种植
+40. ruin 毁坏，破坏
+41. tremble 颤抖
+42. anxious 焦虑的
+43. survive 幸存
+44. comfort 舒适，安逸
+45. despair 绝望
+46. failure 失败
+47. fail 失败
+48. hard 困难的；硬的；努力的
+49. well-being 幸福
+50. Dr 医生；博士
+51. yard 院子
+52. backyard 后院
+53. as 作为；因为；当...的时候
+54. community 社区
+55. communicate 交流
+56. save 保存；拯救；节约
+57. life 生活；生命
+58. acre 英亩
+59. sit 坐，坐下
+60. theory 理论
+61. wisdom 智慧
+62. once 一次；曾经；一旦
+63. each 每；每个
+64. following 接下来的；下列的
+65. generation 一代
+66. have to 必须，不得不
+67. rough 艰难的
+68. shallow 浅的
+69. root 根
+70. leaf 叶子
+71. branch 树枝；分支
+72. trunk 树干；后备箱
+73. mean 意思是，意味着
+74. meaning 意义，意思
+75. couple 夫妇；一双，一对
+76. left 左边的
+77. leave 离开；留下
+78. walk by 经过
+79. extreme 极其的，非常的
+80. since 自从；因为
+81. although 虽然，尽管
+82. several 几个的，数个的
+83. seem 似乎，好像
+84. before 在...之前
+85. within 在...里面
+86. pray 祈祷
+87. prey 狩猎，捕猎
+88. encounter 偶遇，遇见
+89. tip 建议
+90. plastic 塑料
+91. increase 增加
+92. decrease 减少
+93. long-term 长期的
+94. short-term 短期的
+95. solution 解决方法
+96. quit 停止，放弃
+97. worldwide 全世界的
+98. per 每
+99. average 平均的
+100. customer 顾客
+101. complete 完全的，彻底的；完成
+102. pollute 污染
+103. order 订购；命令；顺序
+104. major 主要的，重要的；专业；主修....专业
+105. fill 填，填充
+106. avoid 避免
+107. instead of 相反，而不是
+108. contain 包含，包括
+109. store 储存；商店
+110. area 地区，区域
+111. produce 产生，生产
+112. product 产品
+113. grade 年级；分数
+114. class 班级；课
+115. engineering 工程，工程学
+116. challenge 挑战；困难
+117. rather than 而不是
+118. direct 直接的
+119. direction 方向；指导，说明
+120. prefer 更喜欢
+121. open 打开；开着的，开放的
+122. device 设备
+123. existing 现存的
+124. exist 存在
+125. shape 形状；塑造
+126. match 比赛；匹配
+127. common 共同的；普遍的
+128. ordinary 普通的
+129. dry 使干燥
+130. firm 坚固的，坚定的
+131. twist 拧，扭
+132. thumb 拇指
+133. due to 因为，由于
+134. disease 疾病
+135. cause 原因；造成
+136. have trouble/difficulty/a hard time (in) doing sth. 做某事有困难
+137. hold 拿着，握着；保持；举行，举办
+138. simplify 使简化，使简单
+139. rubber 橡胶
+140. form 形式；组成，形成
+141. bottom 底部
+142. notice 注意到；通知
+143. disorder 混乱；障碍
+144. be full of 充满
+145. paper 纸
+146. page 页；页码
+147. process 过程；加工，处理
+148. condition 条件；状况
+149. tend 倾向于
+150. confuse 使混淆；使混乱
+151. letter 书信；字母
+152. adjust 调节，调整
+153. isolate 隔绝，孤立
+154. section 部分
+155. while 当...的时候
+156. material 材料
+157. reform 改革
+158. metal 金属
+159. independent 独立的
+160. ambitious 有志向的
+161. generous 慷慨的，大方的
+162. attend 参加
+163. regular 规律的；定期的；经常的
+164. teach 教
+165. show up 出现，露面
+166. fit 适合；健康的
+167. last 持续；最后的
+168. locate 位于，坐落于
+169. building 建筑物
+170. snack 零食
+171. snake 蛇
+172. cafe 咖啡馆
+173. during 在...期间
+174. break 打破，打碎；休息
+175. will 将，将要
+176. walk by 经过，路过
+177. fellow 同事，伙伴
+178. courage 勇气
+179. encourage 鼓励
+180. moment 瞬间，片刻
+181. guy 家伙
+182. handle 应对，处理
+183. hesitation 犹豫
+184. hesitate 犹豫
+185. bring 带，带来
+186. astonish 使惊讶
+187. delight 高兴，喜悦
+188. rest 休息；剩余部分
+189. perform 表演；做，执行
+190. shift 变换，轮换
+191. prepare 准备
+192. physical 身体的；实物的
+193. mental 心理的
+194. spiritual 精神的
+195. spirit 精神
+196. character 人物、角色；性格；特征
+197. true 真的，真实的
+198. magic 魔力，魔法
+199. gather 聚集，集合
+200. ask sb. to do sth. 要求某人做某事，让某人做某事
+201. experience 经历
+202. calm down 冷静下来，镇定下来
+203. look down 低头看；轻视，看不起
+204. make up 构成，组成；编造；化妆
+205. pick up (开车)接某人
+206. author 作者
+207. brave 勇敢的
+208. attempt 尝试
+209. infer 推断，推论
+210. move 移动；搬家；感动
+211. lecture 讲座，课
+212. kind 种类；和蔼的
+213. likely 可能的
+214. strict 严厉的
+215. generous 慷慨大方的
+216. especially 尤其，特别
+217. besides 除...之外
+218. beside 在...旁边
+219. prevent 阻止
+220. help do sth 帮助做某事
+221. as 作为；当...时候
+222. at the same time 同时
+223. play a role in sth. 在...中起作用
+224. active 主动的，积极的
+225. compare 比较
+226. and so on 等等
+227. receive 接收，收到
+228. concept 概念
+229. contest 比赛，竞争
+230. announce 宣布，宣告
+231. invite 邀请
+232. member 成员，会员
+233. inspire 鼓励，激励；启发
+234. capable 能够的，可以的
+235. call for 呼吁
+236. expert 专家
+237. various 各种各样的，许多的
+238. select 挑选
+239. further 更进一步地；深入地
+240. turn out to do sth. 结果是，证明是
+241. collect 收集
+242. design 设计
+243. incredible 不可思议的
+244. mechanism 机制
+245. specialize 专门从事，专门做
+246. oxygen 氧
+247. stream 溪流
+248. adapt 适应；改装，改造
+249. purpose 目的
+250. pollution 污染
+251. tail 尾巴
+252. belly 肚子
+253. attach 系，贴，附
+254. current 现在的，目前的
+255. sensor 感应器
+256. monitor 监视器，显示器；监视
+257. particle 颗粒
+258. autonomous 自动的，自主的
+259. participate in 参加，加入
+260. participant 参加者，参与者
+261. hand in 提交
+262. enthusiasm 激情，热情
+263. function 功能
+264. intend to do sth. 目的做某事，想要做某事
+265. improve 改善，提升
+266. be made of 由...制成（物理）
+267. be made from 由...制成（化学）
+268. be famous/well-known/known as 作为...而出名
+269. be famous/well-known/known for 以...而出名
+270. martial art 武术
+271. host 主人，东道主；主持，主办
+272. train 火车；训练
+273. mark 标记，记号；标志
+274. such 这样的
+275. organize 组织
+276. province 省份
+277. range 范围；（在某个范围内）变化
+278. eager 渴望的
+279. among 在...之中（三者及以上之间）
+280. between 在...之中（两者之间）
+281. attract 吸引
+282. enjoy doing sth. 喜欢做某事
+283. thing 东西，事物
+284. practice 练习
+285. express 表达
+286. gratitude 感激
+287. opportunity 机会
+288. recognize 辨认，识别
+289. heritage 遗产
+290. site 地点
+291. create 创造
+292. relax 使放松
+293. present 礼物；呈现；在场的
+294. aid 帮助
+295. mind 头脑；想法；介意
+296. willing 乐意的，愿意的
+297. decide 决定
+298. show 展示；表演
+299. saying 格言，谚语
+300. custom 传统，惯例
+301. achieve 实现，完成
+302. achievement 成就
+303. puzzle 使困惑
+304. curious 好奇的
+305. record 记录；记录，录制
+306. beg 乞求
+307. beggar 乞丐
+308. pass 通过；经过
+309. belong to 属于
+310. nod 点头；打盹
+311. face 脸；面对
+312. in person 亲自
+313. doubt 怀疑
+314. tiny 极小的
+315. wear 穿，戴
+316. mask 面具，面罩
+317. remember 记忆
+318. struggle 拼搏，挣扎
+319. cheat 欺骗
+320. fear 恐惧，害怕
+321. totally 完全，彻底
+322. puzzled 困惑的
+323. meeting 会议
+324. limit 限制
+325. similar 相似的
+326. disturb 打扰，使厌烦
+327. intake 吸入，摄入
+328. admire 欣赏，钦佩
+329. exhibition 展览
+330. feature 特点；以...为特点，具有...的特点
+331. reflect 反应；反射
+332. east 东
+333. philosophy 哲学
+334. according to 根据，按照
+335. in charge of 负责，掌管
+336. abstract 抽象的
+337. initiate 开始
+338. serve 服务
+339. opponent 敌人，对手
+340. trap 陷阱，圈套；困住
+341. force 逼迫；力
+342. follow 跟随，追随；遵守
+343. till 直到
+344. explain 解释
+345. expose 暴露
+346. be exposed to 被暴露于
+347. add 添加，增加；补充
+348. personality 性格；特征
+349. reveal 揭示，揭露
+350. beat 击败
+351. respect 尊重
+352. place 地方；放，放置
+353. strategy 策略，战略
+354. strategic 战略的，策略的
+355. energy 能量
+356. sculpture 雕塑
+357. digital 数字的，数码的
+358. generate 产生，创造
+359. print 打印
+360. vehicle 车辆，交通工具
+361. account for 占比
+362. passenger 乘客，旅客
+363. good 商品，货物
+364. rail 栏杆；轨道
+365. fuel 燃料
+366. battery 电池
+367. carbon 碳
+368. electricity 电
+369. liquid 液体
+370. transport 交通运输；运输
+371. require 要求，需要
+372. choice 选择
+373. wire 电线
+374. sustainable 可持续的
+375. consume 消耗
+376. effort 努力
+377. renewable 可再生的
+378. afford 负担得起，买得起
+379. laboratory 实验室
+380. estimate 估计
+381. responsible 负责的，有责任的
+382. quarter 四分之一
+383. weight 重量
+384. light 灯；轻的
+385. carry 携带
+386. settle 定居；解决，处理
+387. amount 数量
+388. nation 国家
+389. national 国家的
+390. international 国际的
+391. earn 赚；赚取
+392. modern 现代的
+393. ancient 古代的
+394. reject 拒绝
+395. wonder 想知道
+396. essay 文章
+397. less than 少于，不足
+398. interpret 解释，说明
+399. shock 震惊，惊讶
+400. necessary 必须的
+401. state 州；叙述，陈述
+402. piece 一片，一件，一块；作品
+403. persuade 劝说
+404. health-related 健康相关的
+405. topic 话题，主题
+406. assignment 作业；任务
+407. meet 见面；满足
+408. specification 规格，规定
+409. result 结果
+410. diverse 各种各样的
+411. take on 呈现
+412. turn in 上交，提交
+413. broaden my view 开拓我的视野
+414. touch 触摸
+415. means 方式，方法
+416. demonstrate 展示
+417. final 最后的
+418. away 离开，远离
+419. significance 意义；重要性
+420. mention 提到，提及
+421. fictional 小说的，虚构的
+422. poor 贫穷的；可怜的；差的
+423. apartment 公寓
+424. repair 修理
+425. decorate 装饰
+426. cover 盖，覆盖
+427. complicated 复杂的
+428. stare at 盯着
+429. donate 捐赠，捐献
+430. rent 租
+431. object 物体
+432. while 然而
+433. post 发布，发表
+434. another 另一个
+435. additional 额外的
+436. race 比赛，赛跑
+437. describe 描述
+438. reply 回答，回复
+439. value 价值；重视
+440. valuable 有价值的
+441. precious 珍贵的
+442. chaos 混乱，杂乱
+443. exchange 交换
+444. please 使满意，使满足
+445. pleased 满意的，满足的
+446. remove 移除
+447. recommend 推荐
+448. contribution 贡献
+449. appreciate 欣赏，感激
+450. withdraw 撤退，撤销
+451. even 甚至
+452. line 线；队伍
+453. in the way 挡路，阻挡
+454. difference 不同；作用
+455. junior 初级的
+456. senior 高级的；老年人
+457. at least 至少
+458. cheerful 令人高兴的，愉悦的
+459. mood 心情
+460. intention 目的
+461. source 源泉，来源
+462. resource 资源
+463. appear 出现
+464. inside 里面，内部
+465. outside 外面，外部
+466. suggest 建议；表明
+467. measure 测量；方法，措施
+468. publish 出版；发表
+469. boil 煮沸
+470. filter 过滤
+471. cool 凉爽的；变凉，冷却
+472. rely on 依赖，依靠
+473. lead 带领，引导
+474. lead to 导致，造成
+475. drop 下落，下降
+476. sample 样本
+477. focus on 集中，专注，关注
+478. chemical 化学物质
+479. previous 先前的，从前的
+480. potential 潜在的，可能的；潜力，可能性
+481. determine 决定，确定
+482. harmful 有害的
+483. harm 伤害
+484. raise 提升，提高
+485. concern 担忧
+486. stomach 胃，肚子
+487. ache 疼痛
+488. stomachache 胃痛
+489. headache 头疼
+490. Antarctic 南极
+491. Arctic 北极
+492. study 学习；研究
+493. percent 百分比
+494. crucial 重要的
+495. finding 研究结果，发现
+496. be involved in 参与
+497. treat 对待，处理；治疗
+498. upgrade 升级
+499. issue 问题
+500. statistics 统计数据
+501. define 下定义
+502. quote 引用
+503. effective 有效的
+504. frequency 频率
+505. illustrate 展示
+506. severity 严重，严重性
+507. severe 严重的，严厉的
+508. method 方法，方式
+509. further 更进一步的，更深的
+510. compete 比赛，竞争
+511. be aware of 意识到
+512. represent 代表
+513. decline 降低，下降
+514. accident 事故
+515. occur 发生，出现
+516. decade 十年
+517. destroy 摧毁
+518. whole 全部的，所有的
+519. fight 打架，抗争
+520. journalist 记者
+521. campaign 运动
+522. replace 代替，取代
+523. champion 冠军
+524. promote 促进，提升
+525. diversity 多样性；种类
+526. widespread 普遍的，广泛的
+527. reality 现实，真实
+528. majority 大多数
+529. a number of 许多，大量
+530. the number of ...的数量
+531. rapid 快速的
+532. advocate 提倡，倡导
+533. award 奖；授予
+534. consider 思考，认为
+535. genius 天才
+536. enter 进入
+537. obtain 获得，得到
+538. graduate 毕业
+539. passion 热情，激情
+540. gradual 逐渐的，慢慢的
+541. recover 恢复
+542. distance 距离
+543. distant 远的，遥远的
+544. sudden 突然的
+545. ultimate 最后的，最终的
+546. cure 治愈，治疗
+547. work out 锻炼
+548. surgery 手术，外科手术
+549. fitness 健康，健身
+550. forgive 原谅
+551. muscle 肌肉
+552. impressive 令人印象深刻的
+553. manage to do sth 设法成功做某事
+554. content 内容，目录；满意的
+555. hold on 坚持；等一下
+556. stick to 坚持
+557. expect 期待，期望
+558. authority 当局；官方机构
+559. used to do sth. 过去常常做某事
+560. laugh at 嘲笑
+561. prove 证明
+562. player 选手，运动员
+563. weakness 弱点
+564. guide 指导；guidance 指导，引导
+565. bad 坏的；worse 更坏的；worst 最坏的
+566. grab 抓取
+567. empty 清空；空的
+568. consequence 结果，后果
+569. separate 分离，分开
+570. associate 联系，连接
+571. think 想，思考，认为
+572. guard 守卫，保卫
+573. barrier 障碍
+574. battle 战斗，斗争
+575. evidence 证据，证明
+576. digest 消化
+577. infection 感染
+578. provide 提供
+579. view 观点，看法；看
+580. influence 影响
+581. cell 细胞
+582. appetite 食欲，胃口
+583. cancer 肿瘤，癌症
+584. spread 扩散，扩展；传播
+585. positive 积极的
+586. enhance 增强，加强
+587. response 回复，回应
+588. suit 西装；适合的
+589. suitable 适合的
+590. engage in 从事，参与
+591. whether 是否
+592. experiment 实验
+593. recall 回忆
+594. lack of 缺乏
+595. profit 利润
+596. prefer A to B 比起B更喜欢A
+597. establish 建立
+598. promise 承诺；希望
+599. be able to do sth 能够做某事
+600. accurate 准确的，精确的
+601. predict 预测
+602. in spite of 虽然，尽管；不管，不顾
+603. company 公司
+604. as 作为；当...的时候；因为
+605. innovate 革新，创新
+606. innovation 革新，创新
+607. innovative 革新的，创新的
+608. crowd 人群；涌入
+609. purchase 购买
+610. systematic 系统的
+611. combine 结合
+612. book 预定；书
+613. trade 贸易，交易
+614. performance 表现
+615. milestone 里程碑
+616. male 雄性，男性
+617. female 雌性，女性
+618. qualify 质量，本质；有资格，合格
+619. pursue 追求，追逐
+620. fascinate 吸引
+621. draw 画画；吸引
+622. sunset 日落
+623. sunrise 日出
+624. repeat 重复

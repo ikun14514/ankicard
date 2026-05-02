@@ -1,0 +1,115 @@
+name: Anki Word Converter
+
+on:
+  workflow_dispatch:
+    inputs:
+      input_file:
+        description: 'Input file path (e.g., words.txt)'
+        required: true
+        default: 'words.txt'
+      output_format:
+        description: 'Output format'
+        required: false
+        default: 'csv'
+        type: choice
+        options:
+          - csv
+          - apkg
+      quiz_mode:
+        description: 'Enable quiz mode (Baicizhan style)'
+        required: false
+        default: 'false'
+        type: boolean
+      num_distractors:
+        description: 'Number of distractors for quiz mode'
+        required: false
+        default: '3'
+      use_ai:
+        description: 'Use AI for recognition'
+        required: false
+        default: 'true'
+        type: boolean
+      api_key:
+        description: 'API Key (leave empty to use config)'
+        required: false
+        default: ''
+      base_url:
+        description: 'API Base URL'
+        required: false
+        default: ''
+  push:
+    branches:
+      - main
+    paths:
+      - '**.txt'
+      - '**.docx'
+
+permissions:
+  contents: read
+  pull-requests: write
+
+jobs:
+  convert:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Check input file
+        run: |
+          if [ ! -f "${{ github.event.inputs.input_file || 'words.txt' }}" ]; then
+            echo "Error: Input file '${{ github.event.inputs.input_file || 'words.txt' }}' not found"
+            exit 1
+          fi
+          echo "Input file exists: ${{ github.event.inputs.input_file || 'words.txt' }}"
+
+      - name: Run conversion
+        env:
+          API_KEY: ${{ github.event.inputs.api_key || '' }}
+          BASE_URL: ${{ github.event.inputs.base_url || '' }}
+        run: |
+          ARGS="--format ${{ github.event.inputs.output_format || 'csv' }}"
+          
+          if [ "${{ github.event.inputs.quiz_mode }}" = "true" ]; then
+            ARGS="$ARGS --quiz-mode"
+            ARGS="$ARGS --num-distractors ${{ github.event.inputs.num_distractors || '3' }}"
+          fi
+          
+          if [ "${{ github.event.inputs.use_ai }}" = "false" ]; then
+            ARGS="$ARGS --no-ai"
+          fi
+          
+          if [ -n "$API_KEY" ]; then
+            ARGS="$ARGS --api-key $API_KEY"
+          fi
+          
+          if [ -n "$BASE_URL" ]; then
+            ARGS="$ARGS --base-url $BASE_URL"
+          fi
+          
+          python main.py "${{ github.event.inputs.input_file || 'words.txt' }}" $ARGS
+
+      - name: Upload output
+        uses: actions/upload-artifact@v4
+        with:
+          name: anki-cards
+          path: |
+            *.csv
+            *.apkg
+          retention-days: 7
+
+      - name: List generated files
+        run: |
+          echo "Generated files:"
+          ls -lh *.csv *.apkg 2>/dev/null || echo "No output files generated"

@@ -1,0 +1,62 @@
+{
+    "api": {
+        "base_url": "https://api.chatanywhere.tech",
+        "api_key": "sk-l06sacOBDOEDWL2jrrK5OaiMyOEizs5Yuu8KAYOIIbvhIGz1",
+        "model": "gpt-3.5-turbo",
+        "temperature": 0.3,
+        "max_tokens": 2000,
+        "timeout": 60
+    },
+    "recognition": {
+        "min_word_length": 2,
+        "max_word_length": 30,
+        "confidence_threshold": 0.7,
+        "languages": ["en"],
+        "exclude_patterns": [
+            "note:",
+            "notes:",
+            "example:",
+            "examples:",
+            "cf.",
+            "see also",
+            "related:",
+            "tag:",
+            "TODO:",
+            "FIXME:",
+            "xxx",
+            "###",
+            "被动语态",
+            "进行时态",
+            "现在进行时",
+            "过去进行时",
+            "现在完成时",
+            "过去完成时",
+            "名词+定语从句",
+            "动词+宾语从句",
+            "非限制性定语从句",
+            "作用：",
+            "so +adj+ that",
+            "so that"
+        ]
+    },
+    "cleaning": {
+        "remove_formatting_markers": true,
+        "remove_urls": true,
+        "remove_emails": true,
+        "remove_phone_numbers": true,
+        "remove_special_characters": false,
+        "trim_whitespace": true
+    },
+    "output": {
+        "format": "csv",
+        "csv_delimiter": ";",
+        "csv_quoting": "minimal",
+        "include_headers": true,
+        "deck_name": "WordCards"
+    },
+    "logging": {
+        "level": "INFO",
+        "file": "anki_word_converter.log",
+        "format": "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+    }
+}
